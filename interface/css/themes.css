@@ -1,3 +1,19 @@
+/*---
+Free Wireframe Toolbar Icons for GUI designers by Gentleface
+
+Creative Commons Attribution-NonCommercial -- FREE
+
+Allows for use in wireframes, on personal and community web sites,
+in free and open source software applications and other types of non-commercial usage.
+The set includes transparent PNG versions of the original Gentleface Mono Icon Set
+in black and white colors in 16x16, 32x32, 48x48 sizes.
+
+Read license terms here:
+http://creativecommons.org/licenses/by-nc/3.0/
+
+http://www.gentleface.com/free_icon_set.html
+---*/
+
 #explorer-header, #explorer-body, #explorer-header.light-theme, #explorer-body.light-theme, #explorer-header.dark-theme, #explorer-body.dark-theme, #explorer-body.list, #explorer-body.grid, #explorer-body.col{
     -webkit-transition: none !important;
     transition: none !important;
@@ -11,7 +27,7 @@
 /*-------light-theme-------*/
 
 /*color & border*/
-#explorer-header.light-theme, #explorer-body.light-theme{
+#explorer-header.light-theme, #explorer-body.light-theme, .light-theme figcaption{
     background-image: url(img/brushed.png);
 }
 
@@ -115,7 +131,7 @@
 #explorer-body.light-theme ol li.video {
     list-style-image: url(img/icons/black/movie_icon&16x30.png);
 }
-#explorer-body.light-theme ol li.pdf {
+#explorer-body.light-theme ol li.pdf, #explorer-body.light-theme ol li.text, #explorer-body.light-theme ol li.doc {
     list-style-image: url(img/icons/black/doc_lines_icon&16x30.png);
 }
 
@@ -128,7 +144,7 @@
     background-image: url(img/icons/black/folder_icon&48.png);
 }
 #explorer-body.light-theme.grid ol li.image {
-    background-image: url(img/icons/black/picture_icon&48.png);
+    background-image: none;
 }
 #explorer-body.light-theme.grid ol li.audio {
     background-image: url(img/icons/black/music_square_icon&48.png);
@@ -136,16 +152,15 @@
 #explorer-body.light-theme.grid ol li.video {
     background-image: url(img/icons/black/movie_icon&48.png);
 }
-#explorer-body.light-theme.grid ol li.pdf {
+#explorer-body.light-theme.grid ol li.pdf, #explorer-body.light-theme.grid ol li.text, #explorer-body.light-theme.grid ol li.doc {
     background-image: url(img/icons/black/doc_lines_icon&48.png);
 }
-
 
 
 /*-------dark-theme-------*/
 
 /*color & border*/
-#explorer-header.dark-theme, #explorer-body.dark-theme{
+#explorer-header.dark-theme, #explorer-body.dark-theme, .dark-theme figcaption{
     background-image: none;
 	background-color: #464646;
 	color: white;
@@ -251,7 +266,7 @@
 #explorer-body.dark-theme ol li.video {
     list-style-image: url(img/icons/white/movie_icon&16x30.png);
 }
-#explorer-body.dark-theme ol li.pdf {
+#explorer-body.dark-theme ol li.pdf, #explorer-body.dark-theme ol li.text, #explorer-body.dark-theme ol li.doc {
     list-style-image: url(img/icons/white/doc_lines_icon&16x30.png);
 }
 
@@ -264,7 +279,7 @@
     background-image: url(img/icons/white/folder_icon&48.png);
 }
 #explorer-body.dark-theme.grid ol li.image {
-    background-image: url(img/icons/white/picture_icon&48.png);
+    background-image: none;
 }
 #explorer-body.dark-theme.grid ol li.audio {
     background-image: url(img/icons/white/music_square_icon&48.png);
@@ -272,6 +287,6 @@
 #explorer-body.dark-theme.grid ol li.video {
     background-image: url(img/icons/white/movie_icon&48.png);
 }
-#explorer-body.dark-theme.grid ol li.pdf {
+#explorer-body.dark-theme.grid ol li.pdf, #explorer-body.dark-theme.grid ol li.text, #explorer-body.dark-theme.grid ol li.doc {
     background-image: url(img/icons/white/doc_lines_icon&48.png);
 }

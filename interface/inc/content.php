@@ -1,23 +1,25 @@
-<section <?php if(isset($custom)){echo'class="custom"';}?> >
+    <section <?php if(isset($custom)){echo'class="custom"';}?> >
 
 <?php
 if (isset($_GET['disp'])){
-	$disp = $_GET['disp'];
+    $disp = $_GET['disp'];
 }
 else{
-	$disp = 'list';
+    $disp = 'list';
 }
 
-if (isset($_GET['dir'])){
-	include (PATH_INCLUDE.'/explorer.php');
+if ( (isset($_GET['dir']))OR($welcome == FALSE) ){
+    include (PATH_INCLUDE.'/explorer.php');    
 }
 
 else if (isset($_GET['page'])){
 
 }
+
 else{
-	include (PATH_INCLUDE.'/welcome.php');
+    include (PATH_INCLUDE.'/welcome.php');
 }
 ?>
 
-</section>
+
+    </section>
